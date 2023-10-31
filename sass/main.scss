@@ -1,0 +1,60 @@
+.main{
+    padding: 50px 0 0 0;
+    
+    &__numeros{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+        font-size: 90px;
+
+        & div{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 285px;
+    
+            & img{
+                cursor: pointer;
+                border-radius: 25px;
+                transition: background-color linear .2s;
+    
+                &:active{
+                    background-color: rgb(219, 219, 219);
+                }
+            }
+    
+            .desactivar{
+                display: none;
+            }
+        }
+
+        & .dosPuntos{
+            margin-top: -25px;
+        }
+
+        .extra{
+            display: none;
+        }
+    }
+
+    & button{
+        width: 230px;
+        display: block;
+        margin: 50px auto 30px;
+        border: none;
+        background-color: rgb(103, 141, 243);
+        color: white;
+        cursor: pointer;
+        font-size: 50px;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px 0px;
+        transition: background-color linear .2s;
+
+        &:hover{
+            background-color: rgb(79, 122, 241);
+        }
+    }
+}

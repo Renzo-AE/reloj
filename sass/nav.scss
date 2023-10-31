@@ -1,0 +1,29 @@
+.nav{
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+
+    & button{
+        width: 200px;
+        padding: 10px 0;
+        border: none;
+        cursor: pointer;
+        font-size: 25px;
+        border-radius: 10px;
+        background: white;
+        color: rgb(103, 141, 243);
+        transition: ease .7s;
+    }
+
+    .cambio{
+        background-color: rgb(103, 141, 243);
+        color: white;
+    }
+}
+
+.linea{
+    margin: auto;
+    width: 98%;
+    border: 1px solid black;
+}

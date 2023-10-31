@@ -1,0 +1,108 @@
+.nav {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+}
+.nav button {
+  width: 200px;
+  padding: 10px 0;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 10px;
+  background: white;
+  color: rgb(103, 141, 243);
+  transition: ease 0.7s;
+}
+.nav .cambio {
+  background-color: rgb(103, 141, 243);
+  color: white;
+}
+
+.linea {
+  margin: auto;
+  width: 98%;
+  border: 1px solid black;
+}
+
+.main {
+  padding: 50px 0 0 0;
+}
+.main__numeros {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-size: 90px;
+}
+.main__numeros div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 285px;
+}
+.main__numeros div img {
+  cursor: pointer;
+  border-radius: 25px;
+  transition: background-color linear 0.2s;
+}
+.main__numeros div img:active {
+  background-color: rgb(219, 219, 219);
+}
+.main__numeros div .desactivar {
+  display: none;
+}
+.main__numeros .dosPuntos {
+  margin-top: -25px;
+}
+.main__numeros .extra {
+  display: none;
+}
+.main button {
+  width: 230px;
+  display: block;
+  margin: 50px auto 30px;
+  border: none;
+  background-color: rgb(103, 141, 243);
+  color: white;
+  cursor: pointer;
+  font-size: 50px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 10px 0px;
+  transition: background-color linear 0.2s;
+}
+.main button:hover {
+  background-color: rgb(79, 122, 241);
+}
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+main {
+  width: 950px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 40px;
+  border: 1px solid black;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  user-select: none;
+}
+
+.reiniciar {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  width: auto !important;
+  margin: 0 !important;
+  padding: 13px 20px 7px!important;
+  display: none ;
+}
+
+/*# sourceMappingURL=styles.css.map */
